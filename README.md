@@ -1,1 +1,1 @@
-Meteor/React basic setup with custom user registration and routes.
+This is a boiler plate setup for Meteor+React with Bootstrap 4, custom user registration and react-router routes.
