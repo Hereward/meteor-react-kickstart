@@ -1,0 +1,14 @@
+# Meteor 
+node_modules/
+.meteor-ignore
+settings-production.json
+
+# Sublime Text
+.eslintrc.json
+
+# Config
+settings.json
+
+#Storage
+.storage
+

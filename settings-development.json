@@ -1,0 +1,10 @@
+{
+	"public": {
+		"MainTitle": "Meteor/React/Bootstrap Kickstart",
+		"ShortTitle": "Kickstart",
+		"ShortTitleExternalLink":"https://github.com/Hereward/meteor-react-kickstart"
+	},
+	"private": {
+		"ptest": "Hello Private"
+	}
+}
