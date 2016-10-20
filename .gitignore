@@ -1,6 +1,7 @@
 # Meteor 
 node_modules/
 .meteor-ignore
+.deploy
 settings-production.json
 
 # Sublime Text

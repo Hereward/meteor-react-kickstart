@@ -37,7 +37,7 @@ export default class About extends Component {
                 email: email,
                 token: token,
                 password: password1
-            }, (error) => { 
+            }, (error) => {
                 if (error) {
                     console.log("Error: " + error.reason);
                     return swal({
@@ -50,6 +50,13 @@ export default class About extends Component {
                     console.log("Successfully created account!");
                     browserHistory.push('/');
                 }
+            });
+        } else {
+            return swal({
+                title: "Password must be at least 6 characters.",
+                text: "Please try again",
+                showConfirmButton: true,
+                type: "error"
             });
         }
 
